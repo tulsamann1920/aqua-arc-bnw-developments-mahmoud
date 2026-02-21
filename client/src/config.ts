@@ -1,16 +1,16 @@
 export const CONFIG = {
-  prospectName: "Andrew",
+  prospectName: "Mahmoud",
   developer: {
-    name: "Aldar Properties PJSC",
-    logo: "https://res.cloudinary.com/dshowga6n/image/upload/v1770994871/Company_Logo_1_lblclm.png",
-    favicon: "https://res.cloudinary.com/dshowga6n/image/upload/v1770994918/favicon_14_vpark3.png",
-    tagline: "Neon Tower",
-    brandColor: "0, 0%, 15%",
+    name: "BNW Developments",
+    logo: "https://res.cloudinary.com/dshowga6n/image/upload/v1771697434/property-research/BNW%20Developments%20-%20Aqua%20Arc/developer-logo.png",
+    favicon: "https://res.cloudinary.com/dshowga6n/image/upload/v1771697438/property-research/BNW%20Developments%20-%20Aqua%20Arc/developer-favicon.ico",
+    tagline: "Aqua Arc",
+    brandColor: "210, 15%, 25%",
   },
   project: {
-    headline: "Every Month, Your Rent Disappears.",
-    subHeadline: "Your Equity at Neon Tower Won't.",
-    description: "Calculate how much wealth you're losing to rent each year. See what active living at Dubailand could build for your future.",
+    headline: "Stop Paying Someone Else's Mortgage Every Month",
+    subHeadline: "Build Real Equity at Aqua Arc - Your Wealth Awaits",
+    description: "Our calculator reveals exactly how much wealth you're losing to rent payments that could be building your future instead. At Aqua Arc on prestigious Al Marjan Island, every month of ownership brings you closer to financial freedom. Discover what your dream home could mean for your long-term prosperity.",
   },
   localization: {
     currency: "AED",
@@ -23,7 +23,7 @@ export const CONFIG = {
     rentInflation: 0.04,
     propertyAppreciation: 0.04,
   },
-  walkthroughVideoUrl: "https://youtu.be/xP__M-RlShw",
+  walkthroughVideoUrl: "",
   calendlyUrl: "https://calendly.com/thepropertylook-info/discovery-call",
   tpl: {
     logo: "https://res.cloudinary.com/dshowga6n/image/upload/v1770816146/1_o15miv.png",
@@ -65,8 +65,10 @@ export const CONFIG = {
     ],
   },
   data: [
-    { id: "1BR-Apartment", price: 1400000, beds: 1, image: "https://res.cloudinary.com/dshowga6n/image/upload/v1770991101/Neon_Tower_gallery_image_22_m4o9up.webp", monthlyCharge: 1000, location: "Dubailand" },
-    { id: "2BR-Apartment", price: 2100000, beds: 2, image: "https://res.cloudinary.com/dshowga6n/image/upload/v1770991101/Neon_Tower_gallery_image_23_qhrgdu.webp", monthlyCharge: 1500, location: "Dubailand" },
-    { id: "3BR-Apartment", price: 3200000, beds: 3, image: "https://res.cloudinary.com/dshowga6n/image/upload/v1770991101/image_of_Neon_Tower_by_Aldar_Properties_PJSC__Duba_3_anhaai.webp", monthlyCharge: 2200, location: "Dubailand" }
-  ]
+    { id: "Studio-Apartment", price: 1701909, beds: 0, image: "https://res.cloudinary.com/dshowga6n/image/upload/v1771697418/property-research/BNW%20Developments%20-%20Aqua%20Arc/photo-1.webp", monthlyCharge: 651, location: "Aqua Arc" },
+    { id: "1BR-Apartment", price: 3485483, beds: 1, image: "https://res.cloudinary.com/dshowga6n/image/upload/v1771697419/property-research/BNW%20Developments%20-%20Aqua%20Arc/photo-2.webp", monthlyCharge: 1334, location: "Aqua Arc" },
+    { id: "2BR-Apartment", price: 6284977, beds: 2, image: "https://res.cloudinary.com/dshowga6n/image/upload/v1771697421/property-research/BNW%20Developments%20-%20Aqua%20Arc/photo-3.webp", monthlyCharge: 2405, location: "Aqua Arc" },
+    { id: "3BR-Apartment", price: 10946443, beds: 3, image: "https://res.cloudinary.com/dshowga6n/image/upload/v1771697423/property-research/BNW%20Developments%20-%20Aqua%20Arc/photo-4.webp", monthlyCharge: 4189, location: "Aqua Arc" },
+    { id: "5BR-Apartment", price: 1701909, beds: 5, image: "https://res.cloudinary.com/dshowga6n/image/upload/v1771697425/property-research/BNW%20Developments%20-%20Aqua%20Arc/photo-5.webp", monthlyCharge: 1000, location: "Aqua Arc" },
+  ],
 };
